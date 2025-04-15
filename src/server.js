@@ -11,6 +11,7 @@ app.use(express.json())
 app.get('/', (req, res) => {
     res.send({ response: 'Hello World!' });
 })
+
 app.post('/login', userApi.login);
 app.post('/user', userApi.criarUsuario);
 

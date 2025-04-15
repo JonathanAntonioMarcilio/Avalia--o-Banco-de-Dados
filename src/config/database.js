@@ -10,7 +10,7 @@ class Database {
             'nodejs',
             'root',
             '',
-            { host: 'localhost', dialect: 'sql' }
+            { host: 'localhost', dialect: 'mysql' }
         )
     }
 }
